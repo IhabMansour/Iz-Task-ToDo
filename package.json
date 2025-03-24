@@ -1,0 +1,48 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/styled-components": "^5.1.34",
+    "antd": "^5.24.4",
+    "axios": "^1.8.4",
+    "framer-motion": "^12.5.0",
+    "i18next": "^24.2.3",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "lodash": "^4.17.21",
+    "react": "^19.0.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^19.0.0",
+    "react-dropzone": "^14.3.8",
+    "react-i18next": "^15.4.1",
+    "react-router-dom": "^7.4.0",
+    "styled-components": "^6.1.16"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/lodash": "^4.17.16",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "babel-plugin-import": "^1.13.8",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.3",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "unplugin-auto-import": "^19.1.1",
+    "vite": "^6.2.0"
+  }
+}

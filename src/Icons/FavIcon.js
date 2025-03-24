@@ -1,0 +1,6 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import { memo } from 'react';
+const FavIcon = ({ isFavorite }) => {
+    return (_jsx("svg", { width: "24", height: "24", viewBox: "0 0 24 24", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: _jsx("path", { d: "M12.001 1.99951L15.091 8.25951L22.001 9.26951L17.001 14.1395L18.181 21.0195L12.001 17.7695L5.82098 21.0195L7.00098 14.1395L2.00098 9.26951L8.91098 8.25951L12.001 1.99951Z", fill: isFavorite ? '#D90429' : '#FFFFFF', stroke: "#D90429", strokeLinecap: "round", strokeLinejoin: "round" }) }));
+};
+export default memo(FavIcon);

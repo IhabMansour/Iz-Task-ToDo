@@ -1,0 +1,24 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "target": "ES6",
+    "module": "ESNext",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es2019", "dom"],
+
+    "declaration": false, // Disable generation of .d.ts files
+    "outDir": "./dist" // Output directory (e.g., dist, build)
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "**/*.d.ts"]
+}
